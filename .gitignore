@@ -1,0 +1,101 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# POL ecompile generated files
+*.ecl
+*.lst
+*.dbg
+*.dbg.txt
+*.dep
+
+# POL logs
+log/*.log
+
+# POL realms
+realm/*
+
+# POL MULs
+MUL/*
+
+# Sublime Text files
+*.sublime-project
+*.sublime-workspace
+
+# Other files
+core-changes.txt
+objtypes.txt
+packethooks.txt
+packets.zip
+data/
+config/animxlate.cfg
+config/boats.cfg
+config/extobj.cfg
+config/landtiles.cfg
+config/multis.cfg
+config/tiles.cfg
+ecompile.log
+leftovers.txt
+orphans.txt
+pol.cfg
+pol.cfg.example
+
+# POL binaries and cfg
+pol.exe
+libmysql.dll
+uoconvert.exe
+uoconvert.cfg
+uoconvert.txt
+uotool.exe
+uotool.txt
+ecompile.exe
+poltool.exe
+ecompile.cfg
+runecl.exe
+*.pdb
+
+# Misc files
+
+scripts/ecompile.cfg.example
+scripts/modules/*
+*.session

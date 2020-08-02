@@ -1,0 +1,3 @@
+program start(noncrit)
+    print("POL initialization complete.");
+endprogram

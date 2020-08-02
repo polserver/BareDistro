@@ -1,0 +1,32 @@
+use attributes;
+
+program Install()
+	return 1;
+endprogram
+
+// Regen rates are in 'hundredths of points per minute.' A current regen
+// rate of 100 (1 point per 5 seconds) would therefore be 1200 (12 points
+// per minute)
+exported function GetHitsRegenRate(unused mobile)
+	return 1200;
+endfunction
+
+exported function GetHitsMaximumValue(mobile)
+	return GetAttribute(mobile, "Strength") * 100;;
+endfunction
+
+exported function GetManaRegenRate(unused mobile)
+	return 1200;
+endfunction
+
+exported function GetManaMaximumValue(mobile)
+	return GetAttribute(mobile, "Intelligence") * 100;
+endfunction
+
+exported function GetStaminaRegenRate(unused mobile)
+	return 1200;
+endfunction
+
+exported function GetStaminaMaximumValue(mobile)
+	return GetAttribute(mobile, "Dexterity") * 100;
+endfunction
