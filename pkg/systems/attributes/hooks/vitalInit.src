@@ -12,7 +12,7 @@ exported function GetHitsRegenRate(unused mobile)
 endfunction
 
 exported function GetHitsMaximumValue(mobile)
-	return GetAttribute(mobile, "Strength") * 100;;
+	return GetAttribute(mobile, "Strength") * 100;
 endfunction
 
 exported function GetManaRegenRate(unused mobile)
