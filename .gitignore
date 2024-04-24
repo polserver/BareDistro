@@ -82,17 +82,24 @@ pol.cfg.example
 
 # POL binaries and cfg
 pol.exe
+pol
 libmysql.dll
 uoconvert.exe
+uoconvert
 uoconvert.cfg
 uoconvert.txt
 uotool.exe
+uotool
 uotool.txt
 ecompile.exe
+ecompile
 poltool.exe
+poltool
 ecompile.cfg
 runecl.exe
+runecl
 *.pdb
+breaking-changes.txt
 
 # Misc files
 
